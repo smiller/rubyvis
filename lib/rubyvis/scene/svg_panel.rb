@@ -24,7 +24,7 @@ module Rubyvis
             g.set_attributes(
               {
                 'font-size'=>"10px",
-                'font-family'=>'AvantGarde-Book',
+                'font-family'=>'AvantGarde',
                 'fill'=>'none',
                 'stroke'=>'none',
                 'stroke-width'=>1.5
