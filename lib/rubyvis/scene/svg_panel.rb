@@ -4,7 +4,7 @@ module Rubyvis
       puts " -> panel: #{scenes.inspect}" if $DEBUG
       g=scenes._g
       #e=(g.nil?) ? nil : g.elements[1]
-      e=(g.nil?) ? nil : g.get_element(1) 
+      e=(g.nil?) ? nil : g.get_element(1)
       if g
         #e=g.elements[1]
         e=g.get_element(1)
@@ -24,7 +24,7 @@ module Rubyvis
             g.set_attributes(
               {
                 'font-size'=>"10px",
-                'font-family'=>'sans-serif',
+                'font-family'=>'Lucida Grande',
                 'fill'=>'none',
                 'stroke'=>'none',
                 'stroke-width'=>1.5
@@ -99,7 +99,7 @@ module Rubyvis
         end
       end
       return e
-      
+
     end
 
 
